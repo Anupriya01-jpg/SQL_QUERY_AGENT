@@ -1,0 +1,28 @@
+# Gitignore for SQL Query Agent
+
+# Credentials & environment variables
+.env
+backend/.env
+
+# Python files
+__pycache__/
+*.pyc
+backend/__pycache__/
+backend/.venv/
+.venv/
+
+# Node files
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Databases
+backend/history.db
+*.db
+*.sqlite
+
+# Logs
+*.log
+.system_generated/
+/C:/Users/a/.gemini/antigravity-ide/brain/
